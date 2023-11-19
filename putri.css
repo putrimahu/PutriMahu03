@@ -1,0 +1,103 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #b7e3ff;
+}
+.jumbotron .sosmed a i {
+  font-size: 2.5em;
+  margin: 4px;
+  color: #000000;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #040000;
+  padding: 3rem;
+}
+table {
+  margin: auto;
+  font-size: 20px;
+}
+.resume1 {
+  text-align: justify;
+  padding-top: 2rem;
+  padding: 0;
+}
+
+.beyond-the-mountains {
+  font-family: 'Beyond The Mountains', sans-serif;
+}
+
+footer {
+  background-color: #0466c8;
+  color: white;
+  padding: 2px;
+  text-align: center;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #333;
+  margin-left: -1px;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #333;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-item-content {
+  max-width: 60%;
+}
+
+.timeline-item h2,
+.timeline-item p {
+  margin: 0;
+}
+
+.timeline-item-date {
+  margin-top: 5px;
+  color: #888;
+}
+
+/* Alternate sides for items */
+.timeline-item:nth-child(even) {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) .timeline-item-content {
+  margin-left: 0;
+  margin-right: 30px;
+}
